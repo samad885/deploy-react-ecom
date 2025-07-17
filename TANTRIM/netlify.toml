@@ -1,0 +1,8 @@
+[build]
+  publish = "datafetch/build"
+  command = "cd datafetch && npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
